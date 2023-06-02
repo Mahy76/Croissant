@@ -1,22 +1,12 @@
-body {
-  background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
-    radial-gradient(
-      91% 146%,
-      rgba(255, 255, 255, 0.5) 47%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
-  background-blend-mode: screen;
-  margin: 60px auto;
-}
-.navbar-items {
+.navbar-content {
   display: flex;
   justify-content: space-evenly;
 }
-h1 {
-  color: black;
-  text-align: center;
-}
-a {
+
+.contact-me {
   text-decoration: none;
-  color: blueviolet;
+  color: #0dcaf0;
+}
+.container3 {
+  background-color: gray;
 }
