@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="/"
                 >HomePage</a
               >
             </li>
@@ -65,13 +65,14 @@
         </div>
       </div>
     </nav>
-    <p class="display-1 text-center mt-4">Image Gallery</p>
+    <h1 class="display-1 text-center mt-4">Image Gallery</h1>
     <!--pictures -->
     <div class="container m-5 p-4">
       <div class="row">
         <div class="col-sm-4 p-2">
           <img
             src="/images/croissant4.jpg"
+            alt="croissant picture"
             width="400px"
             ;
             class="rounded img-fluid img-thumbnail shadow-sm"
@@ -80,6 +81,7 @@
         <div class="col-sm-4 p-2">
           <img
             src="/images/cornetti-italian-croissants-24713-1.jpg"
+            alt="croissant picture"
             width="400px"
             class="rounded img-fluid img-thumbnail shadow-sm"
           />
@@ -88,6 +90,7 @@
         <div class="col-sm-4 p-2">
           <img
             src="/images/croissant4.jpg"
+            alt="croissant picture"
             width="400px"
             class="rounded img-fluid img-thumbnail shadow-sm"
           />
@@ -97,11 +100,19 @@
     <!--navbar section-->
     <div class="container">
       <div class="m-5 navbar-content">
-        <a href="/" class="btn btn-outline-info navbar-item">HomePage</a>
-        <a href="/photo.html" class="btn btn-outline-info navbar-item"
+        <a href="/" title="homePage" class="btn btn-outline-info navbar-item"
+          >HomePage</a
+        >
+        <a
+          href="/photo.html"
+          title="Image gallery"
+          class="btn btn-outline-info navbar-item"
           >Photo Gallery</a
         >
-        <a href="/contact.html" class="btn btn-outline-info navbar-item"
+        <a
+          href="/contact.html"
+          title="Contact us "
+          class="btn btn-outline-info navbar-item"
           >Contact me</a
         >
       </div>
